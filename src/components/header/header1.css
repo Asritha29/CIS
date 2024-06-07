@@ -1,0 +1,25 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  
+  
+  .left-card {
+    margin-right: auto;
+  }
+  
+  .right-card {
+    margin-left: auto;
+  }
+  .h5{
+font-family: 'Times New Roman';
+font-weight: 600;
+  }
+  .e{
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+  }
