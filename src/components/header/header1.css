@@ -1,19 +1,21 @@
 .header1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-  }
-  
-  
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 2%;
+  z-index: 1000;
+}
   
   .left-card {
-    margin-right: auto;
+    margin-right: auto; 
+    margin-left: 3%;
   }
   
   .right-card {
     margin-left: auto;
+    margin-right: 3%;
   }
   .h5{
 font-family: 'Times New Roman';
