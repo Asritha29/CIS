@@ -23,7 +23,8 @@ body {
   }
   .topbar{
     width: 100%;
-    background-color:azure;
+    background-color:floralwhite;
+    /* background-color: #8c1c40; */
     color: black;
   }
  
@@ -52,8 +53,9 @@ body {
     margin: auto;
     width: 0%;
     content: '.';
-    color: transparent;
+    /* color: transparent; */
     background: #181818;
+    background-color: azure;
     height: 1px;
     transition: width 0.5s;
   }
@@ -99,9 +101,10 @@ body {
   }  */
 .header{
   /* background-color: azure !important; */
-  padding: 15px;
+  /* padding: 5px; */
   text-align: center;
   border-bottom: 1px solid #ddd;
+  background-color: azure;
   width: 100%;
 }
 .fixed {
@@ -113,7 +116,7 @@ body {
 }
 
 .placeholder {
-  height: 105px; 
+  height: 80px; 
 
 }
 

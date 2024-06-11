@@ -12,8 +12,8 @@ function Header1() {
         <div style={{ textAlign: 'left', float:'left' }}>
           <img src={logo} alt="Logo" style={{ width: '100px' }} />
         </div>
-        <h5 className='h5'>TELANGANA STATE WAQF TRIBUNAL, HYDERABAD SRI B. SURESH (CHAIRMAN)</h5>
-        <p className='e'>तेलंगाना राज्य वक्फ ट्रिब्यूनल, हैदराबाद। श्री बी. सुरेश (अध्यक्ष) <br/>eCourtIS</p>
+        <h5 className='h5'>TELANGANA STATE WAQF TRIBUNAL, HYDERABAD </h5>
+        <p className='e'>तेलंगाना राज्य वक्फ ट्रिब्यूनल, हैदराबाद <br/>eCourtIS</p>
       </div>
       <div className="right-card">
         <h2></h2>

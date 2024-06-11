@@ -1,0 +1,11 @@
+.caseregister{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    background-color: azure;
+    width: 90%;
+    margin-left: 5%;
+}

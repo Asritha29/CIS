@@ -39,14 +39,14 @@ const Header = () => {
                 <Nav.Link href="/about">About Us</Nav.Link>
         <div className="dropdown">
                 <NavDropdown title="Services" id="basic-nav-dropdown" className='dropdown'>
-                  <div className="dropitems">
-                  <NavDropdown.Item >
+                  <div className="dropitems" href="#action/3.2">
+                  <NavDropdown.Item  href="#action/3.2">
                     <Nav.Link href="/case">Case</Nav.Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
                     <Nav.Link href="/caseStudy">Case Study</Nav.Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item >
+                  </NavDropdown.Item >
+                  <NavDropdown.Item href="#action/3.2">
                     <Nav.Link href="/caseHistory">Case History</Nav.Link>
                   </NavDropdown.Item>
                   </div>
