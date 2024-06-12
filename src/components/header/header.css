@@ -10,7 +10,7 @@ body {
   .navbar {
     width: 100%;
     margin: 0 auto;
-    background: #fff;
+    
     color: black;
     /* background-color: azure; */
     padding: 20px 0; /* Adjusted padding for better layout */
@@ -23,9 +23,9 @@ body {
   }
   .topbar{
     width: 100%;
-    background-color:floralwhite;
-    /* background-color: #8c1c40; */
-    color: black;
+    /* background-color:floralwhite; */
+    background-color: #292121;
+    color: rgb(19, 19, 19);
   }
  
   
@@ -33,7 +33,7 @@ body {
     display: block;
     padding: 5px;
     text-decoration: none;
-    color:#432828;
+    color:#fffefe;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 5px;
@@ -42,7 +42,7 @@ body {
   }
   
   .navbar-nav  .nav-link:hover {
-    color:#080808;
+    color:#fff7f7;
   }
   
   .navbar-nav  .nav-link:after {
@@ -54,8 +54,8 @@ body {
     width: 0%;
     content: '.';
     /* color: transparent; */
-    background: #181818;
-    background-color: azure;
+    background: #393434;
+    /* background-color: azure; */
     height: 1px;
     transition: width 0.5s;
   }
@@ -87,7 +87,7 @@ body {
     width: 0%;
     content: '.';
     color: transparent;
-    background: #0b0b0b;
+    background: #faf6f6;
     height: 1px;
   }
   
@@ -104,7 +104,7 @@ body {
   /* padding: 5px; */
   text-align: center;
   border-bottom: 1px solid #ddd;
-  background-color: azure;
+ 
   width: 100%;
 }
 .fixed {

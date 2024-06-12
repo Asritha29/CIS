@@ -1,8 +1,5 @@
-.image{
- height: 10%;
-    width: 100%;
-}
-.news{
+
+/* .news{
     background-color: aquamarine;
     margin-top: -57%;
     height: 100%;
@@ -10,4 +7,21 @@
     font-size:x-large;
     justify-content: center;
     text-align: center;
+
+} */
+.news1{
+    background-color:#a2818b;
+
+}
+/* .homecard1{
+    background-image:url("../assets/court6.jpeg") ;
+} */
+
+.about{
+float: left;
+width: 50%;
+}
+.profiles{
+    float: right;
+    width: 50%;
 }
