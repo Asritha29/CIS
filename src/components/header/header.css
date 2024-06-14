@@ -10,11 +10,11 @@ body {
   .navbar {
     width: 100%;
     margin: 0 auto;
-    
-    color: black;
-    /* background-color: azure; */
-    padding: 20px 0; /* Adjusted padding for better layout */
-    box-shadow: 0px 5px 0px #dedede;
+
+    /* color: black; */
+
+    padding: 20px 0; 
+    /* box-shadow: 0px 5px 0px #dedede; */
   }
   
   .navbar-nav  {
@@ -24,8 +24,8 @@ body {
   .topbar{
     width: 100%;
     /* background-color:floralwhite; */
-    background-color: #292121;
-    color: rgb(19, 19, 19);
+    /* background-color: #3E3232; */
+    /* color: rgb(19, 19, 19); */
   }
  
   
@@ -33,7 +33,7 @@ body {
     display: block;
     padding: 5px;
     text-decoration: none;
-    color:#fffefe;
+    color:#bcb1b1;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 5px;
@@ -42,7 +42,8 @@ body {
   }
   
   .navbar-nav  .nav-link:hover {
-    color:#fff7f7;
+    color:#fffbfb;
+    font-weight: 800;
   }
   
   .navbar-nav  .nav-link:after {
@@ -53,8 +54,8 @@ body {
     margin: auto;
     width: 0%;
     content: '.';
-    /* color: transparent; */
-    background: #393434;
+    color: transparent;
+    /* background: #393434; */
     /* background-color: azure; */
     height: 1px;
     transition: width 0.5s;
@@ -112,7 +113,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
-  /* background-color: #e9ecef !important; */
+  background-color: #3E3232 !important;
 }
 
 .placeholder {
@@ -126,4 +127,8 @@ body {
 
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
+}
+.head1{
+  background-color: #3E3232 ;
+  height: 77px;
 }

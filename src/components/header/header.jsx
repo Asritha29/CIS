@@ -28,7 +28,7 @@ const Header = () => {
   }, [isFixed]);
 
   return (
-    <div>
+    <div className='head1'>
       <div ref={placeholderRef} className="placeholder topbar"  >
       <div className={`header ${isFixed ? 'fixed' : ''}`} ref={HeaderRef}>
         <Navbar  className="topbar stroke" >
