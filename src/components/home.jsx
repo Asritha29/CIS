@@ -1,19 +1,19 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 // import Court from '../assets/court6.JPJ';
 import courtImage from '../assets/court6.jpeg';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Footer from './header/footer';
 
-
-import Header1 from './header/header1'
+import Header from './header/header'
 import './home1.css'
 const Home = () => {
     // const Court = require('../assets/court6.JPJ').default;
     return (
        <div>
-        <Header1 />
-        {/* <Card  style={{height:'570px'}} className='homecard1'>
+        <Header />
+        <Card  style={{height:'570px'}} className='homecard1'>
       <Card.Body>
       <Card.Img  src={courtImage} style={{height:'500px'}} />
       <Card.Text className='news1'>
@@ -26,51 +26,33 @@ const Home = () => {
             </div>
           </Card.Text>
       </Card.Body>
-    </Card> */}
+    </Card>
         <br />
         
-        {/* <CardGroup>
+        <CardGroup>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>ABOUT CITY SMALL CAUSE COURTS </Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          The Unit of City Small Causes Court, Hyderabad was established in the year 1950 and comprises of 10 number of Courts, i.e., 2 District Courts, 1 Senior Civil Judge Court and 7 Junior Civil Judge Courts (05 in Hyderabad location and 02 in Secunderabad location). Sri Hon'ble Akthar Hussian Khan, was the first District and Sessions Judge. 
+          The following are the list of District and Sessions Judges who chaired as the Hon'ble Chief Judges in the Unit of City Small Causes Court.
+<br />
+          <Button variant="outline-primary" >Read more</Button>
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+        
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Honourable Administrative Judges </Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
       </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup> */}
+    </CardGroup>
+    <Footer />
        </div>
     );
 };
