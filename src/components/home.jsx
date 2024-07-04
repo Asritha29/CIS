@@ -13,7 +13,7 @@ const Home = () => {
     return (
        <div>
         <Header1 />
-        <Card  style={{height:'570px'}} className='homecard1'>
+        {/* <Card  style={{height:'570px'}} className='homecard1'>
       <Card.Body>
       <Card.Img  src={courtImage} style={{height:'500px'}} />
       <Card.Text className='news1'>
@@ -26,10 +26,10 @@ const Home = () => {
             </div>
           </Card.Text>
       </Card.Body>
-    </Card>
+    </Card> */}
         <br />
         
-        <CardGroup>
+        {/* <CardGroup>
       <Card>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
@@ -70,7 +70,7 @@ const Home = () => {
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
       </Card>
-    </CardGroup>
+    </CardGroup> */}
        </div>
     );
 };

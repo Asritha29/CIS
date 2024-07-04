@@ -7,21 +7,29 @@
   top: 2%;
   z-index: 1000;
 }
-  
-  .left-card {
-    margin-right: auto; 
-    margin-left: 3%;
-  }
-  
-  .right-card {
-    margin-left: auto;
-    margin-right: 3%;
-  }
-  .h5{
-font-family: 'Times New Roman';
-font-weight: 600;
-  }
-  .e{
-    font-weight: 300;
-    font-family: 'Times New Roman', Times, serif;
-  }
+
+.left-card {
+  margin-right: auto;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.right-card {
+  margin-left: auto;
+  margin-right: 3%;
+}
+
+.h5 {
+  font-family: 'Times New Roman';
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.e {
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+  text-align: left;
+}
