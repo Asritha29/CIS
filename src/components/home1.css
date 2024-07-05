@@ -10,7 +10,8 @@
 
 } */
 .news1{
-    background-color:#a2818b;
+    background-color:#7E6363;
+    
 
 }
 /* .homecard1{
@@ -24,4 +25,29 @@ width: 50%;
 .profiles{
     float: right;
     width: 50%;
+}
+.homecard1{
+    margin-top: 12%;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a2{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn2{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #503C3C;
+    border-color: #3E3232;
+    font-weight: 600;
 }

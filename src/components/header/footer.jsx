@@ -19,7 +19,7 @@ const Footer = () => {
         <FlowbiteFooter container>
             <div className='di'> 
                 <div>
-                    <Row className='row'>
+                    <Row className='row1'>
                         <h2 className='h-2'>Photo Gallery</h2>
                         <div className="col-3">
                             <img src={Emblem} alt="" className='img-1' />
@@ -37,8 +37,8 @@ const Footer = () => {
                             <img src={citycourt} alt="" className='img-1' />
                         </div>
                     </Row>
-                    <Row>
-                        <Button className='btn'>...View More...</Button>
+                    <Row className='row1'>
+                        <Button className='btn1'>...View More...</Button>
                     </Row>
                 </div>
 

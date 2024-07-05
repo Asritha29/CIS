@@ -18,11 +18,11 @@ const Home = () => {
       <Card.Img  src={courtImage} style={{height:'500px'}} />
       <Card.Text className='news1'>
       
-      <div className="text-xl text-black font-bold ">
+      <div className="a2">
                 LATEST NEWS
             </div>
             <div className="items-center ml-3">
-                <a className="text-black font font-semibold">Release of coffe table e-book on digital transformation in Indian Judiciary,2023</a>
+                <a className="a1">Release of coffe table e-book on digital transformation in Indian Judiciary,2023</a>
             </div>
           </Card.Text>
       </Card.Body>
@@ -37,7 +37,7 @@ const Home = () => {
           The Unit of City Small Causes Court, Hyderabad was established in the year 1950 and comprises of 10 number of Courts, i.e., 2 District Courts, 1 Senior Civil Judge Court and 7 Junior Civil Judge Courts (05 in Hyderabad location and 02 in Secunderabad location). Sri Hon'ble Akthar Hussian Khan, was the first District and Sessions Judge. 
           The following are the list of District and Sessions Judges who chaired as the Hon'ble Chief Judges in the Unit of City Small Causes Court.
 <br />
-          <Button variant="outline-primary" >Read more</Button>
+          <Button  className='btn2' >Read more</Button>
           </Card.Text>
         </Card.Body>
         
