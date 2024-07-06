@@ -44,8 +44,7 @@ const Header = () => {
         <div style={{ textAlign: 'right', float: 'right' }}>
             <img src={department} alt="Logo" style={{ width: '100px' }} />
           </div>
-          <h2></h2>
-          <p></p>
+          
         </div>
       </div>
       <Navbar className="topbar stroke">

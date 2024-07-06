@@ -10,9 +10,7 @@
 
 } */
 .news1{
-    background-color:#7E6363;
-    
-
+    background-color:#7E6363;    
 }
 /* .homecard1{
     background-image:url("../assets/court6.jpeg") ;
@@ -50,4 +48,27 @@ width: 50%;
     background-color: #503C3C;
     border-color: #3E3232;
     font-weight: 600;
+}
+
+.title1{
+    text-align: center;
+}
+.judges{
+    display: flex;
+    float: right !important;
+    width: 60%;
+    margin-left: 38%;
+   /* margin-top: -30%;  */
+   margin-bottom: 5px;
+}
+.about1{
+    border: none;
+    width: 100%;
+    margin-top: 0px;
+}
+.imagejudges{
+    border-radius: 110px;
+    height: 100px;
+    width: 100px;
+    margin: 4px;
 }
