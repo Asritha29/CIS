@@ -64,8 +64,7 @@ function LegacyData() {
             <br/>
           </Col>
             
-
-      
+   
             <div className="col-2">
             <Form.Label htmlFor=''>Pending</Form.Label>
             <Form.Check type='radio' id=''   />
