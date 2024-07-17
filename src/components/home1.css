@@ -72,3 +72,25 @@ width: 50%;
     width: 100px;
     margin: 4px;
 }
+.hlogin{
+    background-color: #3E3232;
+    font-family:serif;
+    font-weight: 700;
+}
+.btn3{
+    width: 20%;
+    margin-left: 32%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #503C3C;
+    border-color: #3E3232;
+    font-weight: 600;
+}
+.llogin{
+    font-weight: 500;
+    color: black;
+}
+.signuplink{
+    color:#A69080 ;
+}
