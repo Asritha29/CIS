@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
-
     <Card className="col-lg-5 mx-3 mt-1">
     <Card.Header className="text-center hlogin text-white"><h3>Login</h3></Card.Header>
     <Card.Body>
@@ -18,18 +17,15 @@ function Login() {
           <Form.Label column sm="2" htmlFor="email" className="llogin">Email</Form.Label>
           <Col sm="10">
             <Form.Control type="email" id="email" autoComplete="off" placeholder="example@email.com" name="email" />
-          <br />
+            <br />
           </Col>
           <Form.Label column sm="2" htmlFor="password" className="llogin">Password</Form.Label>
-<Col sm="10">
-  <Form.Control type="password" id="password" autoComplete="off" aria-describedby="passwordHelpBlock" placeholder="Password" />
-</Col>
-<Form.Text id="passwordHelpBlock" muted>
-  Your password must be 8-20 characters long, contain letters and numbers, special characters, and must not contain spaces, or emoji.
-</Form.Text>
-
-
-         
+          <Col sm="10">
+            <Form.Control type="password" id="password" autoComplete="off" aria-describedby="passwordHelpBlock" placeholder="Password" />
+          </Col>
+          <Form.Text id="passwordHelpBlock" muted>
+            Your password must be 8-20 characters long, contain letters and numbers, special characters, and must not contain spaces, or emoji.
+          </Form.Text>         
           <br />
           <br />
           <br />
@@ -38,7 +34,7 @@ function Login() {
           </Col>
         </Form.Group>
       </Form>
-      <p style={{ textAlign: 'center', color: 'black' }}>Don't have an account? <Link to="/signup">Signup</Link></p>
+        <p style={{ textAlign: 'center', color: 'black' }}>Don't have an account? <Link to="/signup">Signup</Link></p>
     </Card.Body>
   </Card>
     </div>
